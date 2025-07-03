@@ -3,19 +3,19 @@
 
 This project analyzes public sentiment from Twitter using a labeled dataset. It includes data cleaning, sentiment distribution analysis, and visualizations such as bar charts and word clouds.
 
-## 📂 Dataset
+##  Dataset
 
 - **Name:** Twitter Entity Sentiment Analysis
 - **Source:** [Kaggle](https://www.kaggle.com/datasets/jp797498e/twitter-entity-sentiment-analysis)
 - **File Used:** `twitter_training.csv`
 
-## 🎯 Objectives
+##  Objectives
 
 - Analyze public opinion toward various entities/brands on Twitter.
 - Visualize sentiment trends across tweets.
 - Generate word clouds to show the most common words by sentiment.
 
-## 🛠️ Tools & Libraries
+## Tools & Libraries
 
 - Python
 - Pandas
@@ -24,7 +24,7 @@ This project analyzes public sentiment from Twitter using a labeled dataset. It 
 - WordCloud
 - Regular Expressions (`re`)
 
-## 📊 Workflow
+## Workflow
 
 1. **Data Loading**  
    - Read the CSV file
@@ -46,7 +46,7 @@ This project analyzes public sentiment from Twitter using a labeled dataset. It 
 5. **Entity-based Sentiment Breakdown** *(Optional)*  
    - Shows how users feel about top entities/brands
 
-## 📷 Sample Output
+##  Sample Output
 
 - **Sentiment Distribution Bar Chart**
 - **Cleaned Word Clouds for:**
@@ -54,24 +54,24 @@ This project analyzes public sentiment from Twitter using a labeled dataset. It 
   - Negative tweets
   - Neutral tweets
 
-## 🚫 Filtered Content
+##  Filtered Content
 
 A custom filter is applied to exclude offensive or inappropriate words from the word clouds.
 
-## ✅ Result
+## Result
 
 A complete visual report of public sentiment trends and frequently used terms for each type of sentiment in tweets.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
-📦 sentiment-analysis-visualization/
+sentiment-analysis-visualization/
 ├── twitter_training.csv
 ├── sentiment_analysis_visualize.ipynb
 └── README.md
 ```
 
-## 📌 Author
+## Author
 
 - **Netika Tiwari**
 - [LinkedIn](https://www.linkedin.com/in/netika-tiwari-21f2005/)
